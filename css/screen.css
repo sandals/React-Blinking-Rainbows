@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica;
+	padding: 2em;
+}
+
+.button {
+	border: none;
+	border-radius: 8px;
+	padding: 0.5em;
+	color: white;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.10);
+	background: #979797;
+	background-image: -o-linear-gradient(-89deg, #979797 0%, #666666 100%);
+	background-image: -moz-linear-gradient(-89deg, #979797 0%, #666666 100%);
+	background-image: -ms-linear-gradient(-89deg, #979797 0%, #666666 100%);
+	background-image: linear-gradient(-179deg, #979797 0%, #666666 100%);
+}
+.button-liked {
+	background: #53A0FD;
+	background-image: -o-linear-gradient(-89deg, #53A0FD 0%, #3023AE 100%);
+	background-image: -moz-linear-gradient(-89deg, #53A0FD 0%, #3023AE 100%);
+	background-image: -ms-linear-gradient(-89deg, #53A0FD 0%, #3023AE 100%);
+	background-image: linear-gradient(-179deg, #53A0FD 0%, #3023AE 100%);
+}
+
+.article {
+	padding: 1em;
+	border: 5px solid transparent;
+}
+.article-liked {
+	border: 5px dotted blue;
+}
+.likes-amount {
+	font-size: 90%;
+	color: #666;
+	margin-left: 1em;
+}
+.rainbow {
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
